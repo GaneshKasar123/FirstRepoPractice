@@ -9,13 +9,13 @@ public class TypeCastConcept {
 
 		System.out.println("\n Product Price: " + pPrice);
 
-		double empSalary = 9999.99;
+		double empSalary = 88888.88;
 
 		int employeeSalary = (int) empSalary;// downcasting
 
 		System.out.println("\n Employee Salary: " + employeeSalary);
 
-		int productCode = 12345;
+		int productCode = 54321;
 
 		String pCode = String.valueOf(productCode);
 
@@ -26,11 +26,11 @@ public class TypeCastConcept {
 		int prCode = Integer.valueOf(prodCode);
 
 		System.out.println("\n prCode: " + prCode);
-		
-		
+
+
 		long empUID = 12345678999L;
-		
-		
+
+
 
 	}
 }
